@@ -53,4 +53,7 @@ run_analysis <- function( ){
   #Average of Each Variable according to Subject_ID and Activity
   AvgMeasurements<-aggregate(SubjectOrderData[,3:length(SubjectOrderData)],list(Subject_ID=SubjectOrderData$Subject_ID,Activity=SubjectOrderData$Activity),mean)
   AvgMeasurements<-AvgMeasurements[order(AvgMeasurements$Subject_ID),]
+  
+  #Write AvgMeasurements to a CSV file
+  write.table(AvgMeasurements, file = "TidyData.csv",sep=",",row.names=FALSE,col.names=TRUE)
 }
