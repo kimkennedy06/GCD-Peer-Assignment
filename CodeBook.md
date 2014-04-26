@@ -74,6 +74,26 @@ Column Names
 1. **Frequency_Domain_Body_Body_Gyroscope_Jerk_Magnitude_Mean** transformed from “fBodyBodyGyroJerkMag-mean()” in features.txt this variable’s data is collection of train and test data.                    
 1. **Frequency_Domain_Body_Body_Gyroscope_Jerk_Magnitude_Standard_Deviation** transformed from “fBodyBodyGyroJerkMag-std()” in features.txt this variable’s data is collection of train and test data.   
 
+Variables in code:
+
+1. **featuresTable**: data frame built off of features.txt
+1. **features**: character vector of feature names.
+1. **x_test**: data frame of X_test.txt data
+1. **y_test**: data frame of y_test.txt data
+1. **subject_test**: data frame of subject_test.data
+1. **TestDF**: data frame built from a column bind of subject_test, y_test, and x_test
+1. **x_train**: data frame of X_train.txt data
+1. **y_train**: data frame of y_train.txt data
+1. **subject_train**: data frame of subject_train.data
+1. **TrainDF**: data frame built from a column bind of subject_train, y_train, and x_train
+1. **OverallData**: data frame built from a row bind of TestDF and TrainDF
+1. **new_Overall_Data**: data frame built from OverallData containing only columns with mean() and std() data
+1. **activities**: data frame of activity_labels.txt data
+1. **OverallDataActivities**: merge of activities and new_Overall_Data with Activity_ID column removed
+1. **OverallDataReordered**: OverallDataActivities with Subject_ID as the first column
+1. **SubjectOrderData**: OverallDataReordered ordered by Subject_ID
+1. **AvgMeasurements**: data frame created from applying the mean over all measurements for each subject and activity
+
 
 ###Data
 This section describes the data used to create my tidy data set.
