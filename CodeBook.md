@@ -3,7 +3,8 @@
 ###Variables
 This section describes the variables in my final dataset.
 
-Column Names…
+Column Names
+
 1. **Subject_ID** is the collection of subject IDs from train and test data.                                                                
 1. **Activity** is the collection of Activity IDs converted to their appropriate Activity labels from train and test data.                                                                  
 1. **Time_Domain_Body_Accelerometer_Mean_X** transformed from “tBodyAcc-mean()-X” in features.txt this variable’s data is collection of train and test data.                                    
@@ -75,7 +76,8 @@ Column Names…
 
 
 ###Data
-This section describes the data used to create my tidy data set:…
+This section describes the data used to create my tidy data set.
+
 These files are just from the extracted zip file in the present working directory.
 
 1. Column Names
