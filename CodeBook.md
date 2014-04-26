@@ -6,6 +6,7 @@
 ###Data
 Used the following data to create my tidy data set:
 These files are just from the extracted zip file in the present working directory.
+
 1. Column Names
   * UCI HAR Dataset/features.txt
 1. Test Data
