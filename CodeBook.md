@@ -3,6 +3,7 @@
 ###Variables
 This section describes the variables in my final dataset.
 
+Column Names
 1. **Subject_ID** is the collection of subject IDs from train and test data.                                                                
 1. **Activity** is the collection of Activity IDs converted to their appropriate Activity labels from train and test data.                                                                  
 1. **Time_Domain_Body_Accelerometer_Mean_X** transformed from “tBodyAcc-mean()-X” in features.txt this variable’s data is collection of train and test data.                                    
