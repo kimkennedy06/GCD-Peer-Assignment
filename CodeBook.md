@@ -7,7 +7,7 @@ This section describes the variables in my final dataset.
 1. **Activity** is the collection of Activity IDs converted to their appropriate Activity labels from train and test data.                                                                  
 1. **Time_Domain_Body_Accelerometer_Mean_X** transformed from “tBodyAcc-mean()-X” in features.txt this variable’s data is collection of train and test data.                                    
 1. **Time_Domain_Body_Accelerometer_Mean_Y** transformed from “tBodyAcc-mean()-Y” in features.txt this variable’s data is collection of train and test data.             
-1. Time_Domain_Body_Accelerometer_Mean_Z** transformed from “tBodyAcc-mean()-Z” in features.txt this variable’s data is collection of train and test data.               
+1. **Time_Domain_Body_Accelerometer_Mean_Z** transformed from “tBodyAcc-mean()-Z” in features.txt this variable’s data is collection of train and test data.               
 1. **Time_Domain_Body_Accelerometer_Standard_Deviation_X** transformed from “tBodyAcc-std()-X” in features.txt this variable’s data is collection of train and test data.            
 1. **Time_Domain_Body_Accelerometer_Standard_Deviation_Y** transformed from “tBodyAcc-std()-Y” in features.txt this variable’s data is collection of train and test data.             
 1. **Time_Domain_Body_Accelerometer_Standard_Deviation_Z** transformed from “tBodyAcc-std()-Z” in features.txt this variable’s data is collection of train and test data.                         
