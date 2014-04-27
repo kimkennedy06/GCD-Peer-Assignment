@@ -73,7 +73,8 @@ Column Names
 1. **Frequency_Domain_Body_Body_Gyroscope_Magnitude_Standard_Deviation** renamed from `fBodyBodyGyroMag-std()` in `features.txt` this variables data is collection of `train` and `test` data.           
 1. **Frequency_Domain_Body_Body_Gyroscope_Jerk_Magnitude_Mean** renamed from `fBodyBodyGyroJerkMag-mean()` in `features.txt` this variables data is collection of `train` and `test` data.                    
 1. **Frequency_Domain_Body_Body_Gyroscope_Jerk_Magnitude_Standard_Deviation** renamed from `fBodyBodyGyroJerkMag-std()` in `features.txt` this variables data is collection of `train` and `test` data.   
-*Variables 3-68 above contain the average of their measurements grouped by subject and activity.
+
+**Variables 3-68 above contain the average of their measurements grouped by subject and activity.**
 
 Variables in code:
 
